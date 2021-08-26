@@ -19,7 +19,7 @@ else
 fi
 
 # Empty the public folder.
-rm -rf public/*
+#rm -rf public/*
 
 # Change the version file
 rm version
