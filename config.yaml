@@ -1,4 +1,4 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://sapianco.github.io/slack-matrix-migration/'
 languageCode: en-us
 title: Slack to Matrix Migration
 theme: hello-friend-ng
