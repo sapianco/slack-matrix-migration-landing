@@ -1,7 +1,7 @@
 ---
 title: "Readme"
 date: 2021-08-26T11:29:29-05:00
-draft: true
+draft: false
 ---
 
 [![Docker Repository on Quay](https://quay.io/repository/sapian/slack-matrix-migration/status "Docker Repository on Quay")](https://quay.io/repository/sapian/slack-matrix-migration)
