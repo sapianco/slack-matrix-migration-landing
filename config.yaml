@@ -1,0 +1,59 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Slack to Matrix Migration
+theme: hello-friend-ng
+paginate: 10
+googleAnalytics: G-R8G6G2VQ76
+params:
+  dateform: 'Jan 2, 2006'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04'
+  homeSubtitle: >-
+    Migrates Users, Channels and all the conversations from a Slack export to
+    Matrix
+  enableSharingButtons: true
+  description: Slack to Matrix Migration
+  keywords: 'Sapian, Slack, Matrix, Migration'
+  enableThemeToggle: true
+  images:
+    - ''
+  social:
+    - name: twitter
+      url: 'https://twitter.com/sapian_co'
+taxonomies:
+  category: blog
+  tag: tags
+  series: series
+languages:
+  en:
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    params:
+      logo:
+        logoText: python3 slack-matrix-migration/migrate.py
+        logoHomeLink: /  
+  es:
+    title: Migracion de Slack a Matrix
+    subtitle: >-
+      Migra usuarios, canales y todas las conversaciones de una exportación de Slack a
+      Matrix
+    keywords: 'Sapian, Slack, Matrix, Migracion'
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    readOtherPosts: Leer otros Posts
+    params:
+      logo:
+        logoText: python3 slack-matrix-migration/migrate.py
+        logoHomeLink: /
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts
+    - identifier: doc
+      name: Doc
+      url: /doc/readme
+
