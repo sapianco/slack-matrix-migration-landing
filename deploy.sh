@@ -41,5 +41,6 @@ git tag v$version
 
 # Push source and build repos.
 git push origin main --tags
+git subtree pull --prefix=public git@github.com:sapianco/slack-matrix-migration.git gh-pages
 git subtree push --prefix=public git@github.com:sapianco/slack-matrix-migration.git gh-pages
 
