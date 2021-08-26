@@ -11,6 +11,4 @@ tags:
   - migration
 ---
 
-# Awesome logo
-
 ![Example image](/images/Logo_circular_Matrix_server_slack_migration_name_bg.svg)

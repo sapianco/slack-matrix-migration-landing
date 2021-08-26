@@ -50,10 +50,11 @@ languages:
         logoHomeLink: /
 menu:
   main:
-    - identifier: blog
-      name: Blog
-      url: /posts
     - identifier: doc
       name: Doc
       url: /doc/readme
+    - identifier: github
+      name: github
+      url: https://github.com/sapianco/slack-matrix-migration
+
 
