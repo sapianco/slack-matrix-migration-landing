@@ -19,13 +19,14 @@ else
 fi
 
 # Empty the public folder.
-#rm -rf public/*
+rm -rf ${HOME}/Workspace/slack-matrix-migration-landing/public/*
+echo "slack2matrix.sapian.cloud" > ${HOME}/Workspace/slack-matrix-migration-landing/public/CNAME
 
 # Change the version file
 rm version
 rm buildDate
-echo "$version" >> version
-echo "`date +'%a, %Y-%m-%d %T'`" >> buildDate
+echo "$version" > version
+echo "`date +'%a, %Y-%m-%d %T'`" > buildDate
 
 # Build the project.
 hugo
@@ -41,6 +42,4 @@ git tag v$version
 
 # Push source and build repos.
 git push origin main --tags
-git subtree pull --prefix=public git@github.com:sapianco/slack-matrix-migration.git gh-pages
-git subtree push --prefix=public git@github.com:sapianco/slack-matrix-migration.git gh-pages
-
+git push git@github.com:sapianco/slack-matrix-migration.git `git subtree split --prefix public main`:gh-pages --force
