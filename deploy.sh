@@ -40,6 +40,6 @@ git commit -am "$msg"
 git tag v$version
 
 # Push source and build repos.
-git push origin master --tags
+git push origin main --tags
 git subtree pull --prefix=public git@github.com:sapianco/slack-matrix-migration.git gh-pages
 
